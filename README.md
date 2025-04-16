@@ -1,5 +1,6 @@
 # Erenshor-EverquestLevelup
 This mod adds the EverQuest levelup sound to the game when the character levels up.
+Currently the original levelup sound also plays. I will be attempting to remove this in the future.
 
 # Requirements
 BepInEx 5 is required for this mod to work.
