@@ -59,7 +59,7 @@ namespace Erenshor_EverquestLevelup
         {
             static bool Prefix(Stats __instance)
             {
-                if(__instance.Level < 35 && !__instance.Myself.isNPC)
+                if(__instance.Level < 35 && !__instance.Myself.isNPC && lvlupSFX != null)
                 {
                     GameData.PlayerAud.PlayOneShot(lvlupSFX, GameData.PlayerAud.volume * GameData.SFXVol);
                 }
