@@ -38,7 +38,7 @@ namespace Erenshor_EverquestLevelup
         {
             Logger.LogMessage("Attempting to load audio from: " + path);
 
-            using (var uwr = UnityWebRequestMultimedia.GetAudioClip(path, AudioType.MPEG))
+            using (var uwr = UnityWebRequestMultimedia.GetAudioClip("file:///" + path, AudioType.MPEG))
             {
                 yield return uwr.SendWebRequest();
 
