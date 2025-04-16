@@ -11,7 +11,7 @@ namespace Erenshor_EverquestLevelup
     public class EverquestLevelup : BaseUnityPlugin
     {
         internal const string ModName = "EverquestLevelup";
-        internal const string ModVersion = "1.0.0";
+        internal const string ModVersion = "1.0.1";
         internal const string ModDescription = "Everquest Levelup";
         internal const string Author = "Brad522";
         private const string ModGUID = Author + "." + ModName;
